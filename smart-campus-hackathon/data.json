@@ -1,0 +1,120 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "hostel_booking",
+         "patterns": ["hostel fees","fee hostel","hostel payment"],
+         "responses": ["You can pay your hostel fees from : <a href='http://sp.srmist.edu.in/srmiststudentportal' target='''_blank'''>  http://sp.srmist.edu.in/srmiststudentportal"],
+         "context": [""]
+        },
+        {"tag": "easter_eggs",
+         "patterns": ["sadness", "broken", "heart","heartbroken","sad"],
+         "responses": ["Hello, that is widespread in entire SRM","us bro us."],
+         "context": [""]
+        },
+        {"tag": "easter_egg",
+         "patterns": ["girlfriend","gf","keti"],
+         "responses": ["Padhera bas muji","padhna xodera keti keti garxas. bau lai vandim","afai ta mahadev kasle dela bar "],
+         "context": [""]
+        },
+        {"tag": "apoorva",
+         "patterns": ["apoorva","apurv"],
+         "responses": [""],
+         "context": [""]
+        },
+        {"tag": "tuition_fee",
+         "patterns": ["fee tuition payment","tuition pay fees"],
+         "responses": ["You can pay your tuition fee from :<a href='https://feekart.srmist.edu.in/srmopp/' target='''_blank'''>  https://feekart.srmist.edu.in/srmopp/ "],
+         "context": [""]
+        },
+        {"tag": "exam_fee",
+         "patterns": ["exam","exam","pay exam fees"],
+         "responses": ["You can pay your exam fee from :<a href='https://feekart.srmist.edu.in/srmopp/' target='''_blank'''>  https://feekart.srmist.edu.in/srmopp/ "],
+         "context": [""]
+        },
+        {"tag": "attendance",
+         "patterns": ["attendance"],
+         "responses": ["You can check your attendance in Quicklearn. Here is the link :<a href='https://quiklrn.com/user/report.php' target='''_blank'''>  https://quiklrn.com/user/report.php "],
+         "context": [""]
+        },
+        {"tag": "marks",
+         "patterns": ["marks","CT"],
+         "responses": ["You can check your marks in Quicklearn. Here is the link :<a href='https://quiklrn.com/user/report.php' target='''_blank'''>  https://quiklrn.com/user/report.php "],
+         "context": [""]
+        },
+        {"tag": "academia",
+         "patterns": ["academia","student portal"],
+         "responses": ["Here is link to academia :<a href='https://academia.srmist.edu.in/' target='''_blank'''>  https://academia.srmist.edu.in/"],
+         "context": [""]
+        },
+        {"tag": "result",
+         "patterns": ["results"],
+         "responses": ["You can check your results here :<a href='https://evarsity.srmist.edu.in/srmwebonline/exam/onlineResult.jsp' target='''_blank'''> https://evarsity.srmist.edu.in/srmwebonline/exam/onlineResult.jsp</a>"],
+         "context": [""]
+        },
+        {"tag": "TP",
+         "patterns": ["TP","tech park"],
+         "responses": ["Here is location to tech park<a href='https://maps.app.goo.gl/SAwzfHQ8GSRKYhCbA' target='''_blank'''>  https://maps.app.goo.gl/SAwzfHQ8GSRKYhCbA"],
+         "context": [""]
+        },
+        {"tag": "UB",
+         "patterns": ["University Building","Pink building","Central Library","admission office","UB"],
+         "responses": ["Here is location to UB/Library building <a href='https://maps.app.goo.gl/duKoDMErD2EvCkRQA' target='''_blank'''> https://maps.app.goo.gl/duKoDMErD2EvCkRQA"],
+         "context": [""]
+        },
+        {"tag": "Sannasi",
+         "patterns": ["Sannasi"],
+         "responses": ["Here is location to Sannasi hostel <a href='https://maps.app.goo.gl/SAwzfHQ8GSRKYhCbA' target='''_blank'''> https://maps.app.goo.gl/HkSmG1tSi3U7eV31A"],
+         "context": [""]
+        },
+        {"tag": "nelson",
+         "patterns": ["Nelson Mandela"],
+         "responses": ["Here is location to Nelson Mandela Hostel<a href='https://maps.app.goo.gl/N3RhimYcVa1UZUhW7' target='''_blank'''>  https://maps.app.goo.gl/N3RhimYcVa1UZUhW7"],
+         "context": [""]
+        },
+        {"tag": "main_campus",
+         "patterns": ["Main campus"],
+         "responses": ["Here is location to SRM Main Campus<a href='hhttps://maps.app.goo.gl/LeBfKsSV8GVdkae16' target='''_blank'''>  https://maps.app.goo.gl/LeBfKsSV8GVdkae16"],
+         "context": [""]
+        },
+        {"tag": "crc",
+         "patterns": ["crc","class room complex"],
+         "responses": ["Here is location to CRC Block<a href='https://maps.app.goo.gl/SAwzfHQ8GSRKYhCbA' target='''_blank'''>  https://maps.app.goo.gl/LeBfKsSV8GVdkae16"],
+         "context": [""]
+        },
+        {"tag": "art_and_science",
+         "patterns": ["Art and science campus"],
+         "responses": ["Here is location to SRM Arts and Science College <a href='https://maps.app.goo.gl/SAwzfHQ8GSRKYhCbA' target='''_blank'''> https://maps.app.goo.gl/LeBfKsSV8GVdkae16"],
+         "context": [""]
+        },
+        {"tag": "mc",
+         "patterns": ["aerospace","mechanical","Civil"],
+         "responses": ["Hello, that is found in main campus "],
+         "context": [""]
+        },
+        {"tag": "ac",
+         "patterns": ["Computer","Biotechnology","MBA","BBA","Electric","ECE","EEE","CSE"],
+         "responses": ["Hello, that is found in annexure campus "],
+         "context": [""]
+        }
+        
+   ]
+}
